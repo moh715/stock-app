@@ -1,0 +1,65 @@
+-- Seed commonly searched symbols into the stocks table.
+-- All of these work on Twelve Data's free tier.
+-- Run this after schema.sql.
+
+INSERT IGNORE INTO stocks (symbol, name) VALUES
+
+    ('AAPL',  'Apple Inc.'),
+    ('MSFT',  'Microsoft Corporation'),
+    ('GOOGL', 'Alphabet Inc.'),
+    ('AMZN',  'Amazon.com Inc.'),
+    ('NVDA',  'NVIDIA Corporation'),
+    ('META',  'Meta Platforms Inc.'),
+    ('TSLA',  'Tesla Inc.'),
+    ('NFLX',  'Netflix Inc.'),
+    ('AMD',   'Advanced Micro Devices'),
+    ('INTC',  'Intel Corporation'),
+    ('ORCL',  'Oracle Corporation'),
+    ('CSCO',  'Cisco Systems'),
+    ('ADBE',  'Adobe Inc.'),
+    ('QCOM',  'Qualcomm Inc.'),
+    ('TXN',   'Texas Instruments'),
+
+    ('JPM',   'JPMorgan Chase & Co.'),
+    ('BAC',   'Bank of America'),
+    ('GS',    'Goldman Sachs Group'),
+    ('MS',    'Morgan Stanley'),
+    ('V',     'Visa Inc.'),
+    ('MA',    'Mastercard Inc.'),
+    ('PYPL',  'PayPal Holdings'),
+    ('BRK/B', 'Berkshire Hathaway'),
+
+    ('JNJ',   'Johnson & Johnson'),
+    ('PFE',   'Pfizer Inc.'),
+    ('MRNA',  'Moderna Inc.'),
+    ('UNH',   'UnitedHealth Group'),
+    ('ABBV',  'AbbVie Inc.'),
+
+    ('WMT',   'Walmart Inc.'),
+    ('TGT',   'Target Corporation'),
+    ('COST',  'Costco Wholesale'),
+    ('MCD',   "McDonald's Corporation"),
+    ('SBUX',  'Starbucks Corporation'),
+    ('NKE',   'Nike Inc.'),
+    ('DIS',   'The Walt Disney Company'),
+
+    ('XOM',   'Exxon Mobil Corporation'),
+    ('CVX',   'Chevron Corporation'),
+
+    ('SPY',   'SPDR S&P 500 ETF'),
+    ('QQQ',   'Invesco QQQ Trust (Nasdaq 100)'),
+    ('VTI',   'Vanguard Total Stock Market ETF'),
+    ('VOO',   'Vanguard S&P 500 ETF'),
+    ('IWM',   'iShares Russell 2000 ETF'),
+    ('GLD',   'SPDR Gold Shares ETF'),
+    ('ARKK',  'ARK Innovation ETF'),
+    ('BTC/USD', 'Bitcoin'),
+    ('ETH/USD', 'Ethereum'),
+    ('BNB/USD', 'Binance Coin'),
+    ('SOL/USD', 'Solana'),
+    ('XRP/USD', 'XRP'),
+    ('ADA/USD', 'Cardano'),
+    ('DOGE/USD','Dogecoin'),
+    ('AVAX/USD','Avalanche'),
+    ('MATIC/USD','Polygon'),
+    ('LTC/USD', 'Litecoin');
