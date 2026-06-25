@@ -27,12 +27,7 @@ A stock market viewing web app where you can track stocks, read market news, and
 
 1. Run `schema.sql` then `seed.sql` in phpMyAdmin
 2. Fill in your keys in `.env`
-3. Add a `.htaccess` to block browser access to `.env`:
-    ```apacheconf
-    <Files ".env">
-        Require all denied
-    </Files>
-    ```
+
 
 ---
 
